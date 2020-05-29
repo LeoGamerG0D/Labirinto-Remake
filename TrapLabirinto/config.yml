@@ -1,0 +1,94 @@
+##PluginConfig
+##Dia e hora de inicialização
+AutoStart:
+    Day: AllDay
+    Hour: 2051
+    PrepareMessage: 50
+
+##Intervalos e avisos no evento
+Timers:
+  Prepare:
+    Warnings: 20
+    Interval: 20
+    CounterMessages: 2
+  Starting:
+    Warnings: 20
+    Interval: 20
+    CounterTimer: 5
+  Begin:
+    Interval: 20
+    Finishing: 20
+
+##Informações do spawn
+GetSpawn:
+    Spawn: 'world;0;0;0;0;0'
+    Exit: 'world;0;0;0;0;0'
+    Spect: 'world;0;0;0;0;0'
+    Begin: 'world;0;0;0;0;0'
+    
+GetWinner:
+    Winner: 'world;0;0;0;0;0'
+    Radius: 2
+    Premium: 'give {player} minecraft:stone'
+
+##Player Vencedor
+Winner: ''
+WnMessage1: '&6&l{player} &fGanhou o evento Labirinto!'
+WnSuccessPremium: '&2Premio adicionado na sua conta!'
+CounterWinner: 8
+
+##Mesagens
+##Boas vindas
+WelcomeMessage: '&aVoce entrou no evento!'
+WelcomeSpect: '&aVocê agora esta em modo spectador do evento!'
+
+##Erro de comando
+EventError1: '&cO evento nao esta disponivel!'
+EventError2: '&cO evento ja comecou!'
+EventError3: '&cVoce ja esta no evento!'
+EventError4: '&cVocê esta sobre um veiculo/animal!'
+EventError5: '&3Mz > &cEsse comando nao e permitido no console!'
+EventError6: '&cVoce nao pode ir para o spectador agora!'
+EventError7: '&cVoce nao esta no evento!'
+
+##Erros de permissão
+PermissionError: '&cVoce nao tem permissao para executar este comando!'
+
+##Caso o player sair
+ExitMessage: '&aVoce saiu do Labirinto'
+ExitKickMenssage: '&cVoce foi kicado do Labirinto!'
+
+##Mensagem de preparo raiz
+AutoPrepareEvent: '&7[&4!&7] &fFalta menos de &c10mim &fpara iniciar o Labirinto. Prepare-se!'
+
+##Mensagem automaticas
+AutoBeginEvent: '&fEvento &5&lLabirinto &finiciando!'
+AutoBeginEvent1: '&fUltilize o comando &5&l/labirinto &fpara entrar'
+AutoBeginEvent2: '&cLabirinto iniciado! Comandos fechados'
+
+##Mensagem de preparo
+PpMessage1: '&7[&5Coveiro&7] &fOla meros mortais... Meu nome e coveiro, e irei explicar o evento.'
+PpMessage2: '&7[&5Coveiro&7] &fO evento consiste em um Labirinto com varias entradas e saidas.'
+PpMessage3: '&7[&5Coveiro&7] &fPreparei umas surpresas para voces no final do evento.'
+PpMessage4: '&7[&5Coveiro&7] &fCaso eu ver voce trapaciando, irei encomendar seu caixao.'
+PpMessage5: '&7[&5Coveiro&7] &fSem mais conversa bora comecar o jogo!'
+
+##Mensagem de inicio
+BgMessage1: '&7[&4!&7] &aEvento Iniciado!'
+BgMessage3: '&7[&4!&7] &aEvento iniciara em: /counter/'
+
+##Mensagem final
+FnMessage1: '&7[&5Coveiro&7] &fQuanto tempo voce esta em meu labirinto?'
+FnMessage2: '&7[&5Coveiro&7] &fSo queria avisar que irei fechar o Labirinto em breve!'
+FnMessage3: '&7[&5Coveiro&7] &cEvento Finalizado!'
+
+##ScoreBoard 
+SbTitle: '&e&lLABIRINTO'
+SbFooter: '&ewww.redemania.com'
+SbStep1: 'Carregando/.../'
+SbStep2: 'Iniciando...'
+SbStep3: 'Inicia em /timmer/'
+SbStep4: 'Evento/Inicio.'
+SbStep5: 'Evento/Final.'
+
+

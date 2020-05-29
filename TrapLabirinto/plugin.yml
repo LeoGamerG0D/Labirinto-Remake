@@ -1,0 +1,14 @@
+name: ManiaLabirinto
+version: 5.1
+author: Dyoniso_ and LeoGamerG0D
+main: me.mazeevent.main.Main
+
+commands: 
+    labirinto:
+        usage: /<command>
+        description: Root
+
+    
+    
+        
+   
